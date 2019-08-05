@@ -1,12 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <footer>
       <nav className='nav-wrapper grey darken-3'>
         <div className='container'>
-          <Link to='/' className='brand-logo center'>My Project Manager by Paul Brighton</Link>
+          <div className='footer-container'>
+            <p className='footer-title'>My Project Manager</p>
+          </div>
         </div>
       </nav>
     </footer>

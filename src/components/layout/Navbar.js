@@ -22,19 +22,6 @@ const Navbar = (props) => {
         </div>
       </div>
     </header>
-
-    /* <nav className='nav-wrapper grey darken-3'>
-      <div className='container'>
-        <div className='nav-container'>
-          <div className='brand-logo'>
-            <Link to='/'>My Project Manager</Link>
-          </div>
-          <div className='nav-links'>
-            { links }
-          </div>
-        </div>
-      </div>
-    </nav> */
   )
 }
 
