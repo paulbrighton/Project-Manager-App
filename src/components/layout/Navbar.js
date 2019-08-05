@@ -10,12 +10,31 @@ const Navbar = (props) => {
   // console.log(auth)
   const links = auth.uid ? <SignedInLinks profile={profile} /> : <SignedOutLinks />
   return (
-    <nav className='nav-wrapper grey darken-3'>
-      <div className='container'>
-        <Link to='/' className='brand-logo'>My Project Manager</Link>
-        { links }
+    <header className='nav-wrapper grey darken-3'>
+      <div className='container header-container'>
+        <div className='brand-logo'>
+          <Link className='logo' to='/'>My Project Manager</Link>
+        </div>
+        <div className='nav-links'>
+          <ul>
+            { links }
+          </ul>
+        </div>
       </div>
-    </nav>
+    </header>
+
+    /* <nav className='nav-wrapper grey darken-3'>
+      <div className='container'>
+        <div className='nav-container'>
+          <div className='brand-logo'>
+            <Link to='/'>My Project Manager</Link>
+          </div>
+          <div className='nav-links'>
+            { links }
+          </div>
+        </div>
+      </div>
+    </nav> */
   )
 }
 

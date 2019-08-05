@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <nav className='nav-wrapper grey darken-3'>
         <div className='container'>
-          <Link to='/' className='brand-logo center'>My Project Manager</Link>
+          <Link to='/' className='brand-logo center'>My Project Manager by Paul Brighton</Link>
         </div>
       </nav>
     </footer>
