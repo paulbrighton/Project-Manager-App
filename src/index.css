@@ -59,7 +59,7 @@ header {
 }
 
 .footer-container {
-  height: 50px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,7 +67,20 @@ header {
 
 .footer-title {
   font-size: 1.5em;
-  padding-top: 5px;
+  padding-top: 15px;
+}
+
+.project-detail {
+  margin-top: 15px;
+}
+
+.project-detail p {
+  font-size: 1.3em;
+  background-color: rgba(51, 51, 51, 0.11);
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 5px;
 }
 
 form {

@@ -8,6 +8,9 @@ const ProjectSummary = ({project}) => {
         <span className='card-title'><p className='project-title'>{project.title}</p></span>
         <span className='card-content grey-text darken-5'>{project.content}</span>
         <p className='card-user dark-grey-text'>Posted by {project.authorFirstName} {project.authorLastName}</p>
+        <div className='project-detail'>
+          <p className='pink-text'>Click for Details</p>
+        </div>
         {/* <p className='grey-text'>{moment(project.createdAt.toDate()).calendar()}</p> */}
       </div>
     </div>
